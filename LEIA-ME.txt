@@ -1,0 +1,19 @@
+CLIMA ESCOLA — PROTÓTIPO DE CHECKOUT (V6)
+
+Abra index.html no navegador e percorra checkout.html, pagamento.html, pedido.html e acompanhamento.html.
+
+ATENÇÃO: Demonstração local. Não usar dados pessoais reais. Não registra pedidos em servidor, não calcula frete, não cobra, não envia e-mails e não fornece rastreio. Os dados digitados ficam apenas na sessão do navegador.
+
+PARA VENDER DE VERDADE:
+1. Contratar gateway de pagamento com checkout hospedado (Pix/cartão/boleto conforme disponibilidade) e credenciais.
+2. Integrar cotação de frete via API (Correios/transportadora ou agregador), com CEP de origem, peso e dimensões da embalagem, contrato e credenciais.
+3. Criar backend HTTPS e banco de dados para pedidos, clientes, valores, estoque e auditoria.
+4. Implementar webhooks assinados/idempotentes do gateway e confirmação somente no servidor.
+5. Integrar e-mails transacionais e código de rastreio após postagem.
+6. Publicar política de privacidade/LGPD, termos de venda, trocas/devoluções, identificação do vendedor (CNPJ/endereço/canais) e segurança de dados.
+7. Integrar emissão de nota fiscal e política de garantia/suporte.
+8. Testar sandbox, fraudes, conciliação e rotinas de reembolso.
+
+Preço demonstrativo R$350 por unidade, frete NÃO incluso.
+
+Versão 6.1: CEP da escola no checkout; campo CEP removido da página inicial. O CEP de entrega permanece no checkout.
