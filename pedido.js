@@ -1,0 +1,1 @@
+const p=CE.get('pedido');document.getElementById('resultado').textContent=p?`Prévia ${p.numero} • ${p.quantidade} unidade(s) • ${CE.money(p.subtotal)} + frete pendente • ${p.pagamento} (simulado). Nenhuma cobrança foi realizada.`:'Nenhuma simulação encontrada. Inicie pela página inicial.';

@@ -1,0 +1,1 @@
+const CE={get:(k,d=null)=>{try{return JSON.parse(sessionStorage.getItem('ce_'+k))??d}catch{return d}},set:(k,v)=>sessionStorage.setItem('ce_'+k,JSON.stringify(v)),money:n=>Number(n).toLocaleString('pt-BR',{style:'currency',currency:'BRL'}),user:()=>{return CE.get('user')},demo:true};
