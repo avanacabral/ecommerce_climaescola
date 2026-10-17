@@ -1,1 +1,0 @@
-const d=CE.get();document.getElementById('resultado').textContent=d?`Prévia: ${CE.quantity()} unidade(s), subtotal ${CE.money(CE.quantity()*350)} (frete pendente). Forma escolhida: ${sessionStorage.getItem('ce_metodo')||'não definida'}. Destino: ${d.cidade}/${d.uf}.`:'Nenhuma prévia foi preenchida nesta sessão.';
