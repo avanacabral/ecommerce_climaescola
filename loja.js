@@ -1,1 +1,0 @@
-const CE={money:v=>Number(v).toLocaleString('pt-BR',{style:'currency',currency:'BRL'}),quantity:()=>Math.min(99,Math.max(1,parseInt(sessionStorage.getItem('ce_qtd')||'1',10)||1)),get:()=>{try{return JSON.parse(sessionStorage.getItem('ce_checkout')||'null')}catch{return null}}};
