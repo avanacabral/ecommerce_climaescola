@@ -1,0 +1,9 @@
+CLIMA ESCOLA — PROTÓTIPO ACADÊMICO V6.2
+
+Abra index.html em um navegador. Teste login.html, cadastro.html, minha-conta.html, checkout.html, pagamento.html, pedido.html e acompanhamento.html.
+
+Use dados inteiramente fictícios. O login é uma simulação e aceita qualquer e-mail/senha, sem verificação. A senha não é armazenada. Dados do checkout e pedidos demonstrativos são guardados em sessionStorage, apenas nesta aba/sessão do navegador.
+
+Não existe backend, pagamento, cálculo de frete, banco de dados, confirmação de compra, envio de e-mail ou rastreio real. Não publicar como loja operacional.
+
+Roteiro: cadastrar -> minha conta -> loja -> escolher quantidade -> checkout -> escolher pagamento -> gerar prévia -> consultar acompanhamento usando número e e-mail fictício da prévia.
